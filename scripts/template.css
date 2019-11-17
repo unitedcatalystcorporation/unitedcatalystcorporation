@@ -1,0 +1,229 @@
+	
+/*
+**  Template.css
+**
+**	Default Layout
+**
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+html, body {
+	height: 100%
+	}
+
+	/*submenu always defaults to display none*/
+		#wb-navigation-subtop div.submenu {
+			display: none;
+			position: absolute;
+			background-color: #FFFFFF;
+			width: 150px;
+			border: 1px solid #E5E5E5;
+			}			
+			#wb-navigation-subtop div.submenu div {
+				float: none;
+				}			
+				#wb-navigation-subtop div.submenu a {
+					color: #000;
+					width:120px;
+					display: block;
+					text-align: left;
+					padding-top: 0px;
+					padding-bottom: 0px;
+					margin-left: 0px;
+					padding-left: 0px;
+					margin-right: 0px;
+					padding-right: 0px;
+					line-height: 24px;
+					border:none;
+					}				
+				#wb-navigation-subtop div.submenu a:hover {
+					background-color: #fff;
+					color: #000;
+					border:none;
+					text-indent:4px;
+					} 
+					
+	#wb-container-outer {
+		background-color: #FFFFFF;		
+		background-image: none;
+		background-repeat: repeat;
+		min-height: 105px;
+		}
+	
+	#wb-container-inner {
+		margin: 0;
+		background-color: transparent;
+		padding-bottom: 0px;
+		}
+
+/* WB-LAYOUT-HEADER: This is the header section */
+	#wb-layout-header {
+		width:100%;
+		height:105px;		
+		background-color: transparent;
+		border-bottom-color:#999999;
+		border-bottom-style:solid;
+		border-bottom-width:1px;		
+		}
+	
+	#wb-layout-header-mask {
+		width:960px;	
+		background-color: transparent;		
+		overflow: hidden;
+		height: 105px;
+		}
+				
+	#wb-layout-header-base {
+		width:960px;
+		height: 0px;
+		background-color: transparent;
+		}
+
+	
+/* WB-LAYOUT-TOP-2: for designs that have navigation between the header and content 
+**	Layout 2
+**  Layout 3
+*/	
+	
+    #wb-navigation-subtop {
+		display: none;
+    	}
+    
+    #wb-navigation-subtop div {
+     	float: left;
+     	padding-left: 0px;
+		text-align: left;
+		margin: 2px 0px;
+		width: 100px;
+    	}
+	
+/* WB-CONTAINER-CONTENTWRAPPER: This wraps the content area of the site 
+**
+**	ALL Layouts
+**
+*/
+	#wb-container-contentwrapper {
+		width:960px;
+		min-height: 100%;
+		background-color: transparent;
+		}
+	
+/* SIDEBAR is for designs that have a left or right column built in 
+**
+**	Layout 1
+**	Layout 2
+*/
+	#wb-layout-sidebar { 
+        float: left;
+        width: 205px;
+        padding-left: 0px;     
+		padding-bottom: 10px;  
+		padding-top: 0px;
+        background-color: transparent;
+		*margin-top:-1px;
+		}
+	
+	/* sidebar navigation */
+	#wb-navigation {
+		width:205px;
+		margin-top:2px;
+		background-color: transparent;
+		}
+	
+	#wb-navigation-top {
+		width: 205px;
+		padding-top: 1px;
+		background-color: transparent;	
+		}
+	
+	#wb-navigation-bottom {
+	/* NO HEIGHT: 100%.  BREAKS FF. */
+		width: 205px;
+		padding-bottom: 5px; 
+		background-color: transparent;
+		}
+	
+/* SIDEBAR NAVIGATION STRUCTURE 
+**
+**	Layout 1
+**	Layout 2
+**
+*/	
+#wb-navigation-bottom div {
+		margin-top: 0px;
+		}	
+	#wb-navigation-bottom div {
+		text-align: left;
+		padding: 0px;
+		margin: -1px 0 0 0;
+		width: 205px;
+		}
+		#wb-navigation-bottom div a {
+			border-bottom-color:#E3E3E3;
+			border-bottom-style:solid;
+			border-bottom-width:1px;
+			width: 205px;
+			padding: 0px;
+			margin:0;
+			display:block;
+			height:33px;
+			line-height:33px;
+			text-indent:15px;
+			}
+		#wb-navigation-bottom div a:hover {
+			border-right-color:#E3E3E3;
+			border-right-style:solid;
+			border-right-width:5px;
+			width: 200px;
+			}
+	#wb-basenav {
+		}
+	
+	#wb-navbasewrap {
+		}
+	
+	
+/* MAIN-CONTENT AREA
+**
+**	ALL Layouts
+**
+*/
+
+	#wb-layout-main {
+		width:740px;
+		min-height: 100%;
+		float: right;
+		margin-top: 2px;
+		padding-top: 5px;
+		border-left-color:#E3E3E3;
+		border-left-style:solid;
+		border-left-width:5px;
+		border-right:none;
+		margin-left:0px;
+		padding-left:10px;		
+		}	
+	#wb-layout-main-inner-1 {		
+		}
+    
+	#wb-layout-main-inner-2  {
+		}
+	
+/* Page FOOTER 
+**
+**	ALL Layouts
+**
+*/
+	#wb-layout-footer {
+		min-height: 100px;
+		width: 960px;
+		border: 0px;
+		margin-left: 0;
+		background-color: transparent;
+		}
+	
+	
+
